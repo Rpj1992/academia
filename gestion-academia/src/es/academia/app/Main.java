@@ -9,7 +9,7 @@ import es.academia.service.AcademiaService;
 
 public class Main { 
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { //patata
 		
 		System.out.println("Creando cursos:");
 		Curso curso1 = new Curso("Java Básico", 40, 200);
