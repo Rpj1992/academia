@@ -7,7 +7,7 @@ import es.academia.secretaria.Estudiante;
 import es.academia.secretaria.Inscripcion;
 import es.academia.service.AcademiaService;
 
-public class Main {
+public class Main { 
 
 	public static void main(String[] args) {
 		
