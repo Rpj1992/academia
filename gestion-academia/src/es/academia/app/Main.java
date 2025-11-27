@@ -2,6 +2,7 @@ package es.academia.app;
 
 import java.util.ArrayList;
 
+import ejercicio_comparable_comparator.ComparadorPorAnio;
 import es.academia.secretaria.Curso;
 import es.academia.secretaria.Estudiante;
 import es.academia.secretaria.Inscripcion;
@@ -10,6 +11,8 @@ import es.academia.service.AcademiaService;
 public class Main { 
 
 	public static void main(String[] args) { //patata
+		
+		ComparadorPorAnio comparadorPorAnio = new ComparadorPorAnio();
 		
 		System.out.println("Creando cursos:");
 		Curso curso1 = new Curso("Java Básico", 40, 200);
